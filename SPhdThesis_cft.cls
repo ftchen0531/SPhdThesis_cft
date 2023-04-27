@@ -194,24 +194,6 @@
 % -----------------------------------------------------------------------
 % A L G O R I T H M
 
-\RequirePackage[algo2e, ruled, linesnumbered, algochapter]{algorithm2e}
-\DontPrintSemicolon                      % Dont print semicolons at end of lines.
-\algoheightrule       = \heavyrulewidth  % Set the width of the top and bottom rules.
-\algotitleheightrule  = \lightrulewidth  % Set the width of the middle rule.
-\SetAlgoInsideSkip{medskip}              % Set distance between middle rule and algorithm.
-\interspacetitleruled = 0.2cm            % Set distance between caption and rules.
-\setlength{\algomargin}{2.25em}          % Set the margin of the algorithm text.
-\SetNlSkip{1.25em}                       % Set the spacing between line numbers and text.
-
-\newenvironment{SgAlgorithm}[1][t]
-{%
-	\begin{algorithm2e}[#1]
-    \linespread{1.3} % Set the line spacing to one and half.
-    \selectfont      % The linespread is effective only after selectfont.%
-}
-{%
-	\end{algorithm2e}
-}
 
 
 
